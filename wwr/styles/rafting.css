@@ -15,7 +15,6 @@
 body {
     font-family: var(--body-font);
     color: var(--font-color);
-    background-color: sec;
 }
 
 header,
@@ -69,7 +68,7 @@ h1 {
     background-color: var(--secondary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     top: 75px;
     background-color: var(--primary-color);
