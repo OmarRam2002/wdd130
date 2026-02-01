@@ -40,14 +40,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia a img {
-    width: 5%;
-}
-
 .hero {
     position: relative;
 }
@@ -83,4 +75,80 @@ h1 {
 
 a {
     text-decoration: none;
+}
+
+header {
+    display: grid;
+    background-color: var(--secondary-color);
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header img {
+    grid-column: 1/2;
+    justify-content: center;
+    padding-left: 125px;
+
+}
+
+header nav {
+    grid-column: 2/3;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    padding: 10px 25px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+section img {
+    width: 20%;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.adventures figure {
+    margin: auto;
+}
+
+.adventures figure img {
+    width: 100px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--primary-color);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.socialmedia a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.socialmedia a img {
+    width: auto;
+    height: 50px;
 }
