@@ -198,7 +198,7 @@ textarea {
 }
 
 button {
-    background-color: navy;
+    background-color: rgb(0, 128, 64);
     color: #fff;
     border: none;
     border-radius: .5rem;
