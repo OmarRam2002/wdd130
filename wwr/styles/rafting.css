@@ -1,6 +1,6 @@
 :root {
     --primary-color: #B2E4DB;
-    --secondary-color: #B0C6CE;
+    --secondary-color: #d9e2e2;
     --font-color: #322E38;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -105,6 +105,8 @@ header nav ul {
 header nav ul li {
     padding: 10px 25px;
     border: 1px solid rgb(0, 0, 0);
+    display: block;
+    margin-right: -1px;
 }
 
 section img {
@@ -151,4 +153,74 @@ figcaption {
 .socialmedia a img {
     width: auto;
     height: 50px;
+}
+
+.info {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.map-form {
+    margin: 1rem 0;
+    display: flex;
+
+}
+
+form {
+    padding: 2rem;
+    width: 600px;
+}
+
+.form-item {
+    padding: .5rem;
+    display: grid;
+
+}
+
+input[type="email"],
+input[type="text"] {
+    margin-left: 3rem;
+    width: 70%;
+    height: 2rem;
+}
+
+.purpose {
+    display: flex;
+}
+
+.purpose div {
+    display: grid;
+    padding-left: 2rem;
+}
+
+textarea {
+    height: 4rem;
+}
+
+button {
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+.employees {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.employees-section {
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 0 5px 0;
 }

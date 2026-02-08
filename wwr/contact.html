@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us page</title>
+    <meta name="description"
+      content="This website will privide information about my company White Water Rafting">
+    <meta name="author" content="Omar Ramirez">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="company logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="info">
+            <h3>White Water rafting Company</h3>
+            <h5>123 Main River Street</h5>
+            <h5>Kolob, California</h5>
+            <h5>+1 897 789 8765</h5>
+            <h5>info@whitewater.com</h5>
+        </div>
+        <div class="map-form">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12094.957771733956!2d-111.89263025!3d40.72375205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1770485538703!5m2!1sen!2sus"
+              width="450" height="350" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form>
+                <div class="form-item">
+                    <label>Name
+                        <input type="text" id="fullname" name="fullname" required></label>
+                </div>
+                <div class="form-item">
+                    <label>Email
+                        <input type="email" id="useremail" name="useremail" required></label>
+                </div>
+
+                <div class="form-item purpose">
+                    <label> Message<br>Purpose</label>
+                    <div>
+                        <label><input type="radio"> Gereral Inquiry</label>
+                        <label><input type="radio"> Reservation Questiony</label>
+                        <label><input type="radio"> Website SuggestionGereral Inquiry</label>
+                    </div>
+                </div>
+
+                <label class="form-item">Message
+                    <textarea name="message" id="message" placeholder="Type here"></textarea>
+                </label>
+                <div class="form-item">
+                    <label><input type="checkbox" checked> Please Subscribe me to monthly
+                        newseller</label>
+                </div>
+                <button type="submit"> Get in Touch!</button>
+            </form>
+        </div>
+        <section class="employees-section">
+            <h3>We Are Here to Serve You</h3>
+            <div class="adventures employees">
+                <figure>
+                    <img src="images/enginneremployee.png" alt="river">
+                    <figcaption>Enginner</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/programmeremployee.png" alt="beach">
+                    <figcaption>Programmer</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bussinesemployee.png" alt="travel">
+                    <figcaption>CEO</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <p>©2026 ✎ Whitewater Rafting ✎ Omar Ramirez</p>
+        <nav class="socialmedia">
+            <a href="http://facebook.com">
+                <img src="images/facebook.png" alt="facebook icon">
+            </a>
+            <a href="http://linkedin.com">
+                <img src="images/linkedin.png" alt="linkedin icon">
+            </a>
+            <a href="http://instagram.com">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+
+        </nav>
+    </footer>
+</body>
+
+</html>
