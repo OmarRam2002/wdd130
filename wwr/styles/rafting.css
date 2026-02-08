@@ -224,3 +224,9 @@ h3 {
     border: 2px solid rgb(0, 0, 0);
     margin: 0 0 5px 0;
 }
+
+.title {
+    background-color: transparent;
+    position: relative;
+    opacity: 1;
+}
