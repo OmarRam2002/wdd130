@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #B2E4DB;
-    --secondary-color: #d9e2e2;
+    --primary-color: #b2e4ca;
+    --secondary-color: #55bcb7;
     --font-color: #322E38;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -15,6 +15,7 @@
 body {
     font-family: var(--body-font);
     color: var(--font-color);
+    overflow: hidden;
 }
 
 header,
@@ -28,8 +29,8 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--font-color);
-    background-color: var(--secondary-color);
     text-align: center;
+    font-weight: 900;
 }
 
 nav,
@@ -56,8 +57,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--secondary-color);
+    color: white;
 }
 
 .hero article {
@@ -89,6 +89,7 @@ header img {
     grid-column: 1/2;
     justify-content: center;
     padding-left: 125px;
+    width: 65%;
 
 }
 
@@ -107,6 +108,8 @@ header nav ul li {
     border: 1px solid rgb(0, 0, 0);
     display: block;
     margin-right: -1px;
+    font-size: 1.2rem;
+
 }
 
 section img {
@@ -229,4 +232,106 @@ h3 {
     background-color: transparent;
     position: relative;
     opacity: .9;
+}
+
+fieldset {
+    text-align: center;
+    background-color: rgb(85, 188, 183, 0.4);
+    color: black;
+    border: 2px solid black;
+    font-size: 1.5rem;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signup {
+    margin: 1rem 0;
+    width: 100%;
+
+}
+
+.signmeup {
+    width: 40%;
+    margin: auto;
+}
+
+.signup-form {
+    margin: 0 auto;
+}
+
+.trips1 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.moreinfo {
+    background-color: rgb(85, 188, 183, 0.2);
+}
+
+.trips1 figure img {
+    float: left;
+    width: 150px;
+    border: 1.5px solid white;
+    margin: auto;
+}
+
+.scrollable {
+    height: 600px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    display: grid;
+}
+
+.scrollable img {
+    height: 500px;
+    width: auto;
+    margin-left: 0.5rem;
+    margin-top: .5rem;
+    border: 2px solid black;
+}
+
+.viajes {
+    height: 600px;
+    background-color: bisque;
+}
+
+.viajes figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.viajes div {
+    margin: auto 1rem;
+}
+
+.tripstable {
+    margin: auto;
+}
+
+.tripstable,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: .5rem;
+}
+
+.tripstable th {
+    background-color: rgba(9, 144, 137, 0.4);
+}
+
+.contactus:hover {
+    color: black;
+    font-size: 2rem;
+}
+
+.contactus {
+    display: block;
+    text-align: right;
+    font-size: 1.5rem;
+    color: rgba(0, 91, 160, 0.4);
 }
